@@ -1,0 +1,111 @@
+** start of undefined **
+
+<DOCTYPE! html>
+  <html lang="en">
+    <link rel="stylesheet" href="styles.css">
+  <main>
+    <title>Survey form</title>
+    <head>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Lilo and Stitch Fan Form</p>
+      </head>
+  <body>
+    <form id="survey-form">
+      <label id="name-label">
+         <input id="name" type="text" placeholder="Enter your name" required >
+         </input><br><br>
+         </label>
+      <label id="email-label"> 
+        <input id="email" type="email" placeholder="Enter your E-mail" required>
+         </input><br><br>
+        </label>
+     <label id="number-label"> 
+       <input id="number" type="number" min="0" max="99"  placeholder="What's your age ?" required> <br><br>
+       <select id="age-range">
+         <option value="">Select your age range</option>
+<option value="1">1 - 18</option>
+<option value="2">18 - 29</option>
+<option value="3">29 - 50</option>
+<option value="4">50 - 99</option>
+       </input> 
+       </label> <br><br><br><br>
+        <label id="question-label"> 
+       <input id="question" type="text"  placeholder="Are you a Lilo and Stitch Fan?" required > <br><br>
+       <select id="dropdown">
+         <option value="">How did you hear about us?</option>
+         <option value="0">Facebook</option>
+         <option value="1">Indeed</option>
+         <option value="2">Google</option>
+         <option value="3">A friend</option>
+         <option value="4">Threads</option>
+         </select>
+       </input> 
+       </label>
+       <label>
+         <h2>Are you a Stitch Fan?</h2>
+         <input type="radio" id="Yes" name="question-1" value="Yes">
+<label for="Yes">Yes</label><br>
+         </input>
+         <input type="radio" id="No" name="question-2" value="No">
+<label for="No">No</label><br>
+<h2>Are you a Lilo Fan?</h2>
+         <input type="radio" id="Yes" name="question-1" value="Yes">
+<label for="Yes">Yes</label><br>
+         </input>
+         <input type="radio" id="No" name="question-2" value="No">
+<label for="No">No</label><br>
+         </input>
+    <h3>Please tick all that applies to your Lilo and Stitch life</h3>
+    <input type="checkbox" id="merch" value="merch">
+    <label for="checkbox">I love Stitch merch</label>
+    </input><br>
+    <input type="checkbox" id="movie" value="movie">
+    <label for="checkbox">I love Stitch movies</label>
+    </input><br>
+    <input type="checkbox" id="stitch" value="stitch">
+    <label for="checkbox">I love Stitch </label>
+    </input><br>
+<h3>Last thing before you go, do you have anything to add to this form?</h3>
+<textarea id="last-question" name="last-question" rows="4" cols="60">Please write here if you have anything to add...</textarea><br><br><br>
+    <input type="submit" id="submit"> </input>
+    </form>
+
+** end of undefined **
+
+** start of undefined **
+
+h1 {
+  color: #2d4a99;
+font-family: Calibri, Verdana;
+}
+h2{
+  font-family: Calibri, Verdana;
+  color: #1C6EA4;
+}
+h3{
+  font-family: Calibri, Verdana;
+  color: #1C6EA4;
+}
+p {
+  color: #1C6EA4;
+  font-family: bold Calibri, Verdana;
+}
+textarea {
+  box-shadow: 2px 2px 7px 1px #1C6EA4;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #rgb(255, 255, 255);;
+  font-size: 20px; line-height: 30px; padding: 6px; border-radius: 8px; font-family: "Comic Sans MS", cursive, sans-serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(45deg, rgb(23, 150, 164) 0%, rgb(64, 241, 208) 50%, rgb(255, 87, 245) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+}
+
+input[type=button]:hover {
+background: #1796A4; 
+}
+input[type=button]:active {
+background: #FF57F5; 
+}
+
+
+
+** end of undefined **
+
